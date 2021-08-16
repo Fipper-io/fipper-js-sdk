@@ -84,3 +84,4 @@ export class FipperClient {
     return this.config
   }
 }
+export { ConfigManager } from '~/fipper/manager'
