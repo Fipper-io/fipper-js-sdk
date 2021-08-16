@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Fipper-io/fipper-js-sdk/issues"
   },
-  "homepage": "https://github.com/Fipper-io/fipper-js-sdk#readme"
+  "homepage": "https://github.com/Fipper-io/fipper-js-sdk#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
