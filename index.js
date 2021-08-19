@@ -2,15 +2,15 @@ import pako from 'pako'
 import { apiServer, rateEnum, FipperConfigNotFoundError } from '~/fipper/utils'
 
 export class FipperClient {
-  static previousSyncDate = null
-  static config = null
-  static eTag = null
-
   constructor ({ rate = rateEnum.RARELY, environment, apiToken, projectId }) {
     this.rate = rate
     this.environment = environment
     this.apiToken = apiToken
     this.projectId = projectId
+
+    this.previousSyncDate = null
+    this.config = null
+    this.eTag = null
   }
 
   getRate (rate) {
