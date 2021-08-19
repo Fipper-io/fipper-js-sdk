@@ -1,6 +1,6 @@
 {
   "name": "fipper-js-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The Fipper JS SDK",
   "main": "index.js",
   "scripts": {
