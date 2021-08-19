@@ -1,5 +1,5 @@
 import pako from 'pako'
-import { apiServer, rateEnum, FipperConfigNotFoundError } from '~/fipper/utils'
+import { apiServer, rateEnum, FipperConfigNotFoundError } from './utils'
 
 export class FipperClient {
   constructor ({ rate = rateEnum.RARELY, environment, apiToken, projectId }) {
@@ -84,4 +84,4 @@ export class FipperClient {
     return this.config
   }
 }
-export { ConfigManager } from '~/fipper/manager'
+export { ConfigManager } from './manager'
